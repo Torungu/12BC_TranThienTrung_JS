@@ -19,8 +19,8 @@
   </head>
 
   <body>
-    <h1 class="bg-dark text-center fw-bold text-info">JAVASCRIPTS - 6</h1>
-    <h2 class="bg-primary-subtle text-center">
+    <h1 class="bg-dark text-center fw-bold text-info p-4">JAVASCRIPTS - 6</h1>
+    <h2 class="bg-primary-subtle text-center p-2">
       Đếm tổng các số chẵn từ 1 đến N
     </h2>
     <div class="container">
@@ -37,7 +37,7 @@
         <button class="btn btn-info mt-3" id="button1">Tính tổng</button>
         <input
           type="text"
-          class="form-control mt-3"
+          class="form-control mt-3 fw-bold"
           name=""
           id="result1"
           aria-describedby="helpId"
@@ -46,12 +46,12 @@
         />
       </div>
     </div>
-    <h2 class="bg-primary-subtle text-center">
+    <h2 class="bg-primary-subtle text-center p-2">
       Đếm có bao nhiêu số chia hết cho 3 từ 0 đến N
     </h2>
     <div class="container">
       <div class="mb-3 w-50">
-        <label for="" class="form-label">Số N1</label>
+        <label for="" class="form-label">Nhập số N</label>
         <input
           type="number"
           class="form-control w-25"
@@ -63,7 +63,7 @@
         <button class="btn btn-info mt-3" id="button2">Đếm</button>
         <input
           type="text"
-          class="form-control mt-3"
+          class="form-control mt-3 fw-bold"
           name=""
           id="result2"
           aria-describedby="helpId"
@@ -72,7 +72,19 @@
         />
       </div>
     </div>
-    <h2 class="bg-primary-subtle text-center">Bàn cờ vua</h2>
+    <h2 class="bg-primary-subtle text-center p-2">Tạo 10 thẻ div chẵn, lẻ</h2>
+    <div class="container" id="baiTap1">
+      <button class="btn btn-info mt-3" id="button3">Tạo layout</button>
+    </div>
+    <h2 class="bg-primary-subtle text-center p-2">Tạo ô vuông và tam giác</h2>
+    <div class="container" id="baiTap2">
+      <button class="btn btn-info mt-3" id="button4">Tạo hình vuông</button>
+      <button class="btn btn-info mt-3" id="button5">Tạo hình tam giác</button>
+      <div
+        id="result4"
+        class="text-center bg-primary-subtle mt-4 w-25 rounded"
+      ></div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
