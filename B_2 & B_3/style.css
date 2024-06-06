@@ -1,0 +1,10 @@
+.whiteText {
+  color: white;
+}
+.pinkText {
+  color: pink;
+}
+body.dark {
+  background-color: black;
+  color: white;
+}
