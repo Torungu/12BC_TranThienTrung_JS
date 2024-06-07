@@ -143,14 +143,14 @@ document.querySelector('#hoaDon').onclick=function
             <td>+${kmDauTien}</td>
         </tr>
         <tr>
-            <td scope="row">Thời gian chờ</td>
+            <td scope="row">Thời gian chờ (Mỗi 3 phút)</td>
             <td scope="row">${thoiGianCho} Phút</td>
             <td>${tienMoi3Phut.toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
-            <td>-${giaTienPhat(uberType,thoiGianCho).toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
+            <td class="text-danger">-${giaTienPhat(uberType,thoiGianCho).toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
         </tr>
-        <tr>
+        <tr class="font-weight-bold">
             <th scope="col">TỔNG:</th>
-            <th scope="col">${tongTien}</th>
+            <th scope="col" class="text-success">${tongTien}</th>
             <td></td>
             <td></td>
         </tr>`
@@ -172,14 +172,14 @@ document.querySelector('#hoaDon').onclick=function
         }</td>
         </tr>
         <tr>
-            <td scope="row">Thời gian chờ</td>
+            <td scope="row">Thời gian chờ (Mỗi 3 phút)</td>
             <td scope="row">${thoiGianCho} Phút</td>
             <td>${tienMoi3Phut.toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
-            <td>-${giaTienPhat(uberType,thoiGianCho).toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
+            <td class="text-danger">-${giaTienPhat(uberType,thoiGianCho).toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
         </tr>
-        <tr>
+        <tr class="font-weight-bold">
             <th scope="col">TỔNG:</th>
-            <th scope="col">${tongTien}</th>
+            <th scope="col" class="text-success">${tongTien}</th>
             <td></td>
             <td></td>
         </tr>`
@@ -209,14 +209,14 @@ document.querySelector('#hoaDon').onclick=function
         }</td>
         </tr>
         <tr>
-            <td scope="row">Thời gian chờ</td>
+            <td scope="row">Thời gian chờ (Mỗi 3 phút)</td>
             <td scope="row">${thoiGianCho} Phút</td>
             <td>${tienMoi3Phut.toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
-            <td>-${giaTienPhat(uberType,thoiGianCho).toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
+            <td class="text-danger">-${giaTienPhat(uberType,thoiGianCho).toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</td>
         </tr>
-        <tr>
+        <tr class="font-weight-bold">
             <th scope="col">TỔNG:</th>
-            <th scope="col">${tongTien}</th>
+            <th scope="col" class="text-success">${tongTien}</th>
             <td></td>
             <td></td>
         </tr>`
