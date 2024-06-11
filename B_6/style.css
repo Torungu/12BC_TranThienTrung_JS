@@ -1,0 +1,12 @@
+.oTrang {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+}
+.oDen {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  display: inline-block;
+}

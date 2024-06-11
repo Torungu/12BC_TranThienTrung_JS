@@ -92,3 +92,38 @@ let taoTamGiac=(soDong)=>{
 document.querySelector('#button5').onclick=()=>{
     document.querySelector('#result4').innerHTML=taoTamGiac(5)
 }
+
+//              Tạo bàn cờ vua
+let renderBanCoVua=(a,b)=>{
+    let oDen=`<div class='oDen'></div>`
+    let oTrang=`<div class='oTrang'></div>`
+    let result=''
+    for(j=0;j<=a;j++){
+        for(i=0;i<=b;i++){
+            if(j%2===1){
+                i%2==1 ? (result+=oDen) : (result+=oTrang)
+            }
+            else {
+                i%2==1 ? (result+=oTrang) : (result+=oDen)
+                }     
+            }
+        }
+    return result
+}
+
+document.querySelector('#button6').onclick=()=>{
+    // let oDen=`<div class='oDen'></div>`
+    // let oTrang=`<div class='oTrang'></div>`
+    // let result=''
+    // for(j=0;j<=8;j++){
+    //     for(i=0;i<=8;i++){
+    //         if(j%2===1){
+    //             i%2==1 ? (result+=oDen) : (result+=oTrang)
+    //         }
+    //         else {
+    //             i%2==1 ? (result+=oTrang) : (result+=oDen)
+    //             }     
+    //         }
+    //     }
+        document.querySelector('#result5').innerHTML+=renderBanCoVua(8,8)
+    }
